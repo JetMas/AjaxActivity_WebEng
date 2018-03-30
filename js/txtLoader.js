@@ -8,7 +8,7 @@ $(document).ready(()=>{
        $.ajax({
          url: `txt/${fileName}`,
          success: (result) => {
-           $(".loaded-text").html(result);
+           $("#textArea").html(result);
          }
        });
      }
