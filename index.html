@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -19,6 +20,9 @@
   <div class="container">
     <div class="jumbotron">
       <div class="row">
+        <p id="textArea">Select File to Load</p>
+      </div>
+      <div class="row justify-content-center">
         <select id="fileSelector" class="form-control col-md-3">
           <option value="txt1.txt">Text File One</option>
           <option value="txt2.txt">Text File Two</option>
@@ -26,9 +30,7 @@
         </select>
         <button id="textbtn" class="btn btn-primary col-md-2">Submit</button>
       </div>
-      <div class="row justify-content-center">
-        <p id="textArea">Select File to Load</p>
-      </div>
+
     </div>
   </div>
 </body>
