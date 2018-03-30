@@ -6,7 +6,7 @@ $(document).ready(()=>{
 
      function getData(fileName) {
        $.ajax({
-         url: `js/${fileName}`,
+         url: `txt/${fileName}`,
          success: (result) => {
            $(".loaded-text").html(result);
          }
