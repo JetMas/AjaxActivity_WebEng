@@ -14,11 +14,11 @@ var getData = function(jsonUrl){
 
 $(document).ready(function () {
   $('#jsonBtn1').click(function () {
-    console.log('click1');
+    //console.log('click1');
     getData('info.json');
   });
   $('#jsonBtn2').click(function () {
-    console.log('click2');
+    //console.log('click2');
     getData('malformed.json');
   });
 });
