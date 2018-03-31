@@ -5,3 +5,10 @@ body {
 .jumbotron .row {
   padding-bottom: 10px;
 }
+
+#json .row {
+  padding-bottom: 10px;
+}
+#json button {
+  margin: 5px;
+}
