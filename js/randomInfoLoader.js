@@ -11,7 +11,7 @@ var loadInfo = function(){
   var count = 3;
   for(var i = 0; i < count; i++) {
     //Appending count many random info everytime the user scrolls to the bottom.
-    $('#randomInfo').append(`<div class="card"><div class="card-body text-center">${randomString(10)}</div></div>`);
+    $('#randomInfo').append(`<div class="card"><div class="card-body text-center">${randomString(50)}</div></div>`);
   }
 }
 
