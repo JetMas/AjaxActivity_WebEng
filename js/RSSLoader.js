@@ -1,6 +1,6 @@
 //this forces javascript to conform to some rules, like declaring variables with var
 "use strict";
-var url = "http://www.espn.com/espn/rss/NHL/news";
+var url = "http://www.espn.com/espn/rss/NBA/news";
 window.onload = function(){
 	init(url);
 }
@@ -33,7 +33,7 @@ function xmlLoaded(obj){
 		//get the data out of the item
 		var newsItem = items[i];
 		var title = newsItem.querySelector("title").firstChild.nodeValue;
-		console.log(title);
+		//console.log(title);
 		var description = newsItem.querySelector("description").firstChild.nodeValue;
 		var link = newsItem.querySelector("link").firstChild.nodeValue;
 		var pubDate = newsItem.querySelector("pubDate").firstChild.nodeValue;
